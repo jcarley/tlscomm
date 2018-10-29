@@ -1,0 +1,19 @@
+{
+  "name": "tlscomm",
+  "version": "1.0.0",
+  "description": "POC for TLS communication",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "author": "Jefferson Carley",
+  "license": "MIT",
+  "devDependencies": {
+    "dat-swarm-defaults": "^1.0.1",
+    "discovery-swarm": "^5.1.2",
+    "get-port": "^4.0.0",
+    "jest": "~23.6.0",
+    "portfinder": "^1.0.19"
+  }
+}
